@@ -1,0 +1,14 @@
+name: hellow world
+on: push
+jobs:
+  my-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: my-step
+        run: echo "Hello World!"
+      - name: exam
+        run: echo "attend exam"
+      - name: lab
+        run: echo "attend lab"
+      - name: assignment
+        run: echo "sumet assignment"
